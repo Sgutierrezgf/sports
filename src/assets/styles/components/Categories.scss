@@ -1,10 +1,6 @@
 .categories__title {
-  background-color: black;
   color: black;
-  font-size: 16px;
-  margin-top: -16px;
-  position: absolute;
-  padding-left: 30px;
+  font-size: 25px;
   width: 100%;
 }
 .categories{
@@ -12,5 +8,28 @@
   width: 30%;
   border-radius: 25px;
   display: flow-root;
-  text-align: -webkit-center;
+  margin: 15px;
+  text-align: center;
+  margin-left: 100px;
+}
+.icons{
+  margin: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.icons--img{
+  width: 35px;
+}
+.deportes--title{
+  display: flex;
+  margin-left: 35px;
+}
+.box{
+  width: 300px;
+  border-radius: 25px;
+  margin-left: 35px;
+  display: flex;
+}
+.search{
+  border-radius: 20px;
 }
